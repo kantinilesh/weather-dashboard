@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_KEY = 'fe37b4385151e85658161f4c1351e6e7'; // Replace with your actual OpenWeatherMap API key
+const API_KEY = 'fe37b4385151e85658161f4c1351e6e7'; 
 
 function App() {
   const [city, setCity] = useState('');
